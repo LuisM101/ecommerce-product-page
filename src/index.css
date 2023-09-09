@@ -11,3 +11,348 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 75vw;
+  margin-left: 10vw;
+  margin-top: 15px;
+  min-width: 200;
+}
+section{
+  width: 445px;
+  height: 445px;
+  margin-right: 150px;
+}
+h2{
+  width: 445px;
+  height: 96px;
+  font-weight: bold;
+  font-size: 44px;
+  font-family: "Kumbh Sans";
+  line-height: 1;
+
+}
+h3{
+  width: 137.5px;
+  height: 20px;
+  fill: #1D2026;
+  stroke: black;
+}
+h4{
+  margin: 0;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: "Kumbh Sans";
+  width: 106px;
+  height: 28px;
+}
+h5{
+  margin: 0;
+  margin-top: 10px;
+  width: 63px;
+  height: 26px;
+  color: #B6BCC8;
+  font-size: 16px;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+  line-height: 26px;
+}
+h6{
+  width: 445px;
+  height: 16px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #ff731b;
+}
+.category-holder{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  
+}
+.divider{
+  width: 75%;
+}
+.category{
+  list-style-type: none;
+  margin-right: auto;
+}
+.category li{
+  display: inline;
+  color: #69707D;
+  font-size: 15px;
+  font-family: "Kumbh Sans";
+  margin-right: 20px;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: white !important;
+}
+.category-menu{
+  list-style-type: none;
+}
+.category-menu li {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Kumbh Sans";
+  color: #1D2026;
+  width: 94px;
+  height: 26px;
+  margin-bottom: 15px;
+}
+.category-button {
+  padding: 0;
+  width: 30px;
+  border: 0;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: 0;
+  font-size: 20px;
+
+}
+.category-button-exit{
+  width: 30px;
+  border: 0;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: 0;
+  font-size: 20px;
+  margin-right: 1000px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.cart{
+  width: 40px;
+  height: 40px;
+  margin-right: 50px;
+
+}
+
+.images-collection{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+}
+.profile-picture{
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+}
+.company-container{
+  width: 445px;
+  height: 426px;
+  
+}
+.low-profile-detail{
+  width: 445px;
+  height: 78px;
+  font-size: 16px;
+  font-family: "Kumbh Sans";
+  line-height: 26px;
+  color: #69707D;
+}
+.grid-price{
+  width: 173px;
+  height: 68px;
+  display: grid;
+  align-items: center;
+  grid-template-rows: 50px 2px;
+  grid-template-columns: 100px 100px;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  margin-bottom: 25px;
+}
+.fifty-discount{
+  color: #FF7E1B;
+  background-color: #FFEEE2;
+  width: 51px;
+  height: 24px;
+  font-size: 16px;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2px;
+  border-radius: 5px;
+}
+.button-container{
+  width: 445px;
+  height: 56px;
+  display: flex;
+}
+.item-buttons{
+  background-color: #f6f8fd;
+  width: 157px;
+  height: 56px;
+  display: flex;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.sign{
+  border: 0;
+  background-color: #f6f8fd;
+  font-size: 26px;
+  font-weight: bold;
+  color: #FFAB6A;
+}
+.cart-button{
+  width: 272px;
+  height: 56px;
+  background-color: #FF7E1B;
+  border: 0;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Kumbh Sans";
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-img-button{
+  width: 45px;
+  height: 45px;
+}
+.notification{
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  margin-right: 50px;
+}
+.cart-more-items{
+  width: 40px;
+  height: 40px;
+}
+.cart-length{
+  position: absolute;
+  top: 1px;
+  right: -5px;
+  padding: 2px 2px;
+  border-radius: 50%;
+  width: 19px;
+  height: 13px;
+  background: #FF7E1B;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Kumbh Sans";
+}
+.cart-dropdown{
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  width: 360px;
+  min-height: 256px;
+  position: absolute;
+  top: 80px;
+  right: 12%;
+}
+.cart-dropdown-title{
+  width: 34px;
+  height: 20px;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  margin: 10px 10px;
+}
+
+.empty-itmesCart{
+  width: 142px;
+  height: 28px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Kumbh Sans";
+  color: #69707D;
+  margin: auto auto;
+  margin-top: 25%;
+}
+.cart-sneakers-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.customer-order{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.delete-item{
+  width: 14px;
+  height: 16px;
+  background-image: url("..//public/images/trash-icon.png");
+  border-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  align-items: center;
+}
+.detail-cart{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 312px;
+  height: 52px;
+  margin-left: 20px;
+}
+.checkout-button{
+  color: white;
+  background-color: #FF7E1B;
+  border: 0;
+  border-radius: 10px;
+  width: 312px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Kumbh Sans";
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+.all-together-promotion{
+  display: flex;
+  align-content: center;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+.focusImg{
+  width: 445px;
+  height: 445px;
+  border-radius: 10px;
+}
+.thumbnail{
+  width: 88px;
+  height: 88px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+.container-thumbnail{
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+#counter{
+  margin-left: 40px;
+}
+#sub-sign{
+  margin-left: 10px;
+}
+#add-sign{
+  margin-left: auto;
+  margin-right: 10px;
+}
